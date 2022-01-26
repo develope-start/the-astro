@@ -1,0 +1,888 @@
+
+body{
+  width: 100%;
+  margin: auto;
+  background-color: rgb(255, 238, 213);
+}
+
+a{
+  text-decoration: none;
+  color: rgb(70, 70, 70);
+}
+
+                                   /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  HEADER  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+ /* I-LINE */
+  
+.header .uper{
+  width: 100%;
+}
+
+.header .uper td{
+  width: 32%;
+  margin: auto;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.header .uper .soc-icons{ 
+  width: 50%;
+  padding-left: 3%;
+
+}
+
+.header .uper .soc-icons a img{
+  margin-left: 11%;
+  width: 55px;
+}
+.header .uper .soc-icons a img:hover{
+  background-color: #ac9372;
+  width: 47px;
+  border-radius: 45%;
+  border: 4px #04061a dotted;
+  transition:border,background-color.5s;
+
+}
+
+.header .uper .logo{
+  width: 26%;
+}
+.header .uper .logo a img{
+  width: 302px;
+  padding-left: 5%;
+  margin: 5px;
+}
+
+.header .uper .logo a img:hover{
+  opacity: 85%;
+  border: double 6px #ac9372;
+  border-radius: 60px;
+  width: 275.4px;
+  padding-left: 5%;
+  margin: 5px;
+  background-color: #04061a;
+  transition: border,background-color, 0.4s;
+  transition: opacity, 0.3s;
+}
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+                  /* search-bar */
+.header .uper .search{
+  width: 35%;
+  padding-left: 4%;
+}
+
+.header .uper .search a img{
+  width: 38px;
+  height: 38px;
+  border-bottom: 2px solid rgb(199, 170, 130);
+  border-top: 2px solid rgb(199, 170, 130);
+  border-right: 2px solid rgb(199, 170, 130);
+  border-bottom-right-radius: 9px;
+  border-top-right-radius: 9px;
+  background-color: rgb(255, 245, 231);
+  position: relative;
+  right: 6px;
+  top:14px; 
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.header .uper .search input{
+  width: 75%;
+  height: 42px;
+  border-bottom: 2px solid rgb(199, 170, 130);
+  border-top: 2px solid rgb(199, 170, 130);
+  border-left: 2px solid rgb(199, 170, 130);
+  border-bottom-left-radius: 9px;
+  border-top-left-radius: 9px;
+  background-color: rgb(255, 245, 231);
+  font-size: 130%;
+}
+
+.header .uper .search input:hover{
+  box-shadow: 1px 1px 8px rgb(122, 122, 122) inset;
+}
+
+
+.header .uper .search a img:hover{
+  width: 38px;
+  height: 36.1px;
+  border-radius: 6px;
+  background-color: rgb(221, 182, 127);
+  position: relative;
+  right: 10px;
+  top:13.9px; 
+  border: 3px solid transparent;
+}
+                  /* search-bar */
+ /* I-LINE */
+  
+
+ /* II-LINE */                 
+
+.header .uper2{  
+/*  border: 2px red solid; */
+  width: 100%;                                
+  text-align: center;
+  margin: auto;
+  background-color: rgb(7, 11, 26);
+  border-radius: 15px;
+}
+
+.header .uper2 th{
+ /* border: 2px rgb(0, 4, 255) solid; */
+  width: 10%;
+  
+}
+
+.header .uper2  .sun{
+  padding-bottom: 25px;
+}
+
+.header .uper2  .mercury{
+  padding-bottom: 25px;
+}
+
+/* .header .uper2 .img-container{
+ background-color: bisque; 
+}
+*/
+/* .header .uper2 img{    
+.background-color: blueviolet; 
+}
+*/
+
+/* //////////////////////////////  images  /////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*.header .uper2 img{    
+   background-color: blueviolet; 
+ }*/
+
+.header .uper2 .back{                          /* black planets images */
+ /* border: 2px rgb(0, 145, 202) solid; */
+  width: 88px;
+  position: absolute;                         /* relative back image*/
+  margin: 3px;
+}
+
+.header .uper2 .front{                        /* color planets images */
+  /* border: 2px rgb(179, 0, 0) solid;  */
+  width: 95px;
+  position: relative;                         /* relative front image*/
+  
+}
+
+.header .uper2 .saturn img{                 
+  padding-bottom: 25px ;
+}
+
+.header .uper2 .saturn .back{                 /* black planet saturn image */
+  width: 185px ;
+}
+
+.header .uper2 .saturn .front{               /* color planet saturn image */        
+  width: 190px ;
+}
+
+/* //////////////////////////////  pharagraps  //////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.header .uper2 p{
+ /* border: 2px rgb(89, 95, 0) solid; */
+  width: 55%;
+  margin: auto; 
+}
+.header .uper2 .top-p{
+  opacity: 50%;
+  color: rgb(255, 192, 97);
+  font-family: zeda;     /*   cursive   */
+  padding-bottom: 10px;
+}
+@font-face {
+  font-family:zeda ;
+  src: url(../web-fonts/zeda.TTF);
+}
+
+.header .uper2 .bottom-p{
+  color: rgb(40, 74, 126);
+  text-align: center;
+  font-weight: bolder;
+  font-family: qveda ;     /*   fantasy  */
+  font-size: 115%;
+  padding-top: 10px;
+  
+}
+@font-face {
+  font-family: qveda ;
+  src: url(../web-fonts/qveda.ttf);
+}
+/* ///////////////////////*/
+
+.header .uper2 .saturn .top-p{
+  position: relative;
+  top: 15px;
+}
+.header .uper2 .saturn .bottom-p{
+  text-align: center;
+  position: relative;
+  width: 70%;
+  bottom: 38px;
+}
+.header .uper2  .mercury  .bottom-p{
+  text-align: center;
+  width: 70%;
+}
+.header .uper2 .uranus .bottom-p{
+  text-align: center;
+  width: 60%;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*.header .uper2 th:hover{
+  opacity: 15%;
+  background-color: rgb(12, 11, 11);
+}*/
+.header .uper2 th .front:hover{
+  opacity: 0%;
+}
+
+.header .uper2 th .bottom-p:hover{
+  color: rgb(21, 170, 170);
+  font-size: 115%;
+}
+
+.header .uper2 th .top-p:hover{
+  color: rgb(255, 251, 0);
+  font-size: 100%;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+ /* II-LINE */   
+                                   /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  HEADER  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  FOOTER  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+.footer{
+ width: 100%;
+ background-image:url(../img/Asset\ 128@4x-8.png);
+ background-repeat: no-repeat;
+ background-size: 100% 100%;
+ border-radius: 15px;
+ background-color: rgba(7, 11, 26, 0.81);
+ background-blend-mode:color;
+ }                                  
+
+
+/*  ////////////  I-LINE  //////////   */
+.footer .dawner{
+  width: 80%;
+  border-radius: 15px;
+  margin: auto;
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+
+.footer .dawner th{
+  width: 10%;
+}
+
+.footer .dawner .border-left{
+  border-left: rgb(172, 148, 114) 3px solid;
+  border-radius: 15px;
+}
+
+.footer .dawner .border-center{
+  border-left: rgb(172, 148, 114) 3px solid;
+  border-right: rgb(172, 148, 114) 3px solid;
+  border-radius: 15px;
+}
+
+.footer .dawner .border-right{
+  border-right: rgb(172, 148, 114) 3px solid;
+  border-radius: 15px;
+}
+/* //////////////////////////////  pharagraps  //////////////////////////////////////////////////////////////////////////////////////////////////////*/ 
+.footer .dawner th p{
+  width: 80%;
+  margin: auto;
+}
+
+.footer .dawner th p a{
+  font-family: cursive;
+  font-size: 20px;
+  color: rgb(30, 62, 109);
+}
+
+.footer .dawner th p a:hover{
+  font-family: cursive;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(80, 129, 204);
+}
+/*  ////////////  I-LINE  //////////   */
+
+ /*  ////////////  II-LINE  //////////   */
+
+.footer .dawner2{
+  width: 100%;
+  padding-top: 100px;
+}
+
+.footer .dawner2 th{
+  width: 18%;
+}
+
+.footer .dawner2 .border-left1{
+  border-top: rgb(250, 236, 160) 2px dotted;
+  border-bottom: rgb(250, 236, 160) 2px dotted;
+  border-radius: 35px;
+}
+
+.footer .dawner2 .border-center1{
+  border-top: rgb(172, 148, 114) 6px double;
+  border-bottom: rgb(172, 148, 114) 6px double;
+  border-radius: 35px;
+}
+
+.footer .dawner2 .border-center1 p{
+  width: 35%; 
+  
+}
+
+.footer .dawner2 .border-right1{
+  border-top: rgb(250, 236, 160) 2px dotted;
+  border-bottom: rgb(250, 236, 160) 2px dotted;
+  border-radius: 35px;
+}
+/* //////////////////////////////  pharagraps2  //////////////////////////////////////////////////////////////////////////////////////////////////////*/ 
+.footer .dawner2 th p{
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.footer .dawner2 th p a{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 180%;
+  color: rgb(30, 62, 109);
+}
+@font-face {
+  font-family:service;
+  src: url(../web-fonts/service.ttf);
+}
+.footer .dawner2 th p a:hover{
+  font-family: service;
+  font-size: 146%;
+  font-weight: bold;
+  color:rgb(189, 152, 97);
+}
+
+.footer .Copyright{
+  position: relative;
+  width: 220px;
+  margin: auto;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+/*  ////////////  II-LINE  //////////   */
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  FOOTER  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>> BODY CENTER  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+/*  ////////////  I-LINE  //////////   */
+
+/* middle-seperator */
+.middle-sep{
+  width: 100%;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+@font-face {
+  font-family:papyrus;
+  src: url(../web-fonts/papyrus.ttf);
+}
+.middle-sep .top{
+  width: 94%;
+  list-style-type: none; 
+  border-bottom: solid black 3px;
+  margin: auto;
+  padding-bottom: 7px;
+  font-family:papyrus;
+}
+.middle-sep .top li{
+  display: inline; 
+}
+
+.middle-sep .top .h{
+  color: midnightblue;
+  font-size: 210%;
+  right: 20px;
+  position: relative;
+  top:5px;
+}
+.middle-sep .top .see-all{
+  float: right;
+  position: relative;
+  color: midnightblue;
+  font-size: 210%;
+  bottom: 9px;
+  margin-right: 15px;
+}
+.middle-sep .top .see-all img{
+  width: 33px;
+  height: 32px;
+  background-color: rgb(46, 37, 47);
+  border: #ac9372 solid 2px ;
+  border-radius: 48%;
+  padding: 7px;
+  position: relative;
+  top: 12px;
+}
+.middle-sep .top .see-all:hover{
+  color: #ac9372;
+}
+.middle-sep .top span:hover{
+  color: #ac9372;
+}
+.middle-sep .top .see-all img:hover{
+  width: 23px;
+  height: 22px;
+  opacity: 85%;
+  border: double 7px #ac9372;
+  border-radius: 40px;
+  background-color: #04061a;
+  padding: 7px;
+  transition: border,background-color, 0.4s;
+  transition: opacity, 0.3s;
+}
+/* middle-sep-seperator */
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< DAILY-NEWS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.daily-news{
+  width: 95%;
+  margin: auto;
+  margin-bottom: 70px;
+  margin-top: 60px;
+  font-family:info ;
+  font-size: 125%;
+}
+
+@font-face {
+  font-family:info ;
+  src: url(../web-fonts/info.ttf);
+}
+
+.daily-news a img{ /* !!!!!!!!! set here background images all-same !!!!!!!!!!!*/
+  border-radius: 35px;
+  background-image: url(../img/bb.jpg);
+  background-size: cover;
+}
+/* $$$$$$$$$$$$$$$$$$$$ ########## {{  SET BG AND STYLE FOR EACH IMG IN NEWS  }} ########## $$$$$$$$$$$$$$$$$$$$  */
+/*
+.daily-news .line-1 .from-left-1{
+  background-image: url(../img/);
+  background-size: cover;
+}
+.daily-news .line-1 .from-left-2{
+  background-image: url(../img/);
+  background-size: cover;
+}
+.daily-news .line-1 .from-left-3{
+  background-image: url(../img/);
+  background-size: cover;
+}
+.daily-news .line-2 .from-right-1{
+  background-image: url(../img/);
+  background-size: cover;
+}
+.daily-news .line-2 .from-right-2{
+  background-image: url(../img/);
+  background-size: cover;
+}
+.daily-news .line-2 .from-right-3{
+  background-image: url(../img/);
+  background-size: cover;
+}
+*/
+/* $$$$$$$$$$$$$$$$$$$$ ########## {{  SET BG AND STYLE FOR EACH IMG IN NEWS  }} ########## $$$$$$$$$$$$$$$$$$$$  */
+/* ............line-1............*/
+.daily-news .line-1{
+  width: 40%;
+}
+.daily-news .line-1 .row-1 td{
+  border-bottom: dashed 3px rgb(182, 175, 143);
+  padding-bottom: 20px;
+}
+.daily-news .line-1 .row-1 a img{
+  width: 100%;
+}
+.daily-news .line-1 .row-1 a span{
+    width: 95%;
+    text-align: justify;
+    
+}
+/* --------------------------------- */
+.daily-news .line-1 .row-2 td{
+  border-bottom: dashed 3px rgb(182, 175, 143);
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.daily-news .line-1 .row-2 td a img{
+  width: 50%;
+  float: left;
+}
+.daily-news .line-1 .row-2 a span{
+  width: 45%;
+  text-align: justify;
+  float: right;
+  margin-top: 5px;
+  margin-right: 15px;
+}
+/* ............line-1............*/
+
+.daily-news  .for-rul3{
+  width: 0;
+}
+.daily-news  .for-rul3 th{
+  width: 0%;
+  border-right: dashed 3px rgb(182, 175, 143);
+  height: 1000px;
+
+}
+
+/* ............line-2............*/
+.daily-news .line-2{
+  width: 40%;
+  padding-top: 10px;
+}
+.daily-news .line-2 .row-1 td{
+  border-bottom: dashed 3px rgb(182, 175, 143);
+  padding-bottom: 25px;
+}
+.daily-news .line-2 .row-1 a img{
+  width: 94%;
+}
+.daily-news .line-2 .row-1 a span{
+    width: 96%;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+/* --------------------------------- */
+.daily-news .line-2 .row-2 td{
+  border-bottom: dashed 3px rgb(182, 175, 143);
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.daily-news .line-2 .row-2 td a img{
+  width: 50%;
+  float: right;
+}
+.daily-news .line-2 .row-2 a span{
+  width: 45%;
+  text-align: justify;
+  float: left;
+  margin-top: 5px;
+  margin-left: 15px;
+}
+/* ............line-2............*/
+
+.daily-news  a:hover{
+    color: #ac9372;
+    transition: linear 0.9s;
+}
+
+.daily-news  a span:hover{
+  transition: linear 1.5s;
+  font-style:italic;
+  color: rgb(80, 129, 204);
+}
+
+.daily-news  a img:hover{
+  opacity: 90%;
+  border-radius: 15px;
+  background-color: rgb(144, 78, 3);
+  background-blend-mode: color-dodge;
+  transition: linear 0.6s;
+  
+}
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< DAILY-NEWS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< LAST-REVIEWS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.last-reviews{
+  width: 92%;
+  margin: auto;
+  font-family:info ;
+  font-size: 125%;
+  margin-bottom: 80px;
+}
+@font-face {
+  font-family:info ;
+  src: url(../web-fonts/info.ttf);
+}
+.last-reviews a img{ /* !!!!!!!!!!!!!!!!!!!!!!!!!!!! set here background images all-same */
+  width: 75%;  
+  border: double 8px rgba(49, 6, 78, 0.9);;
+  border-radius: 50%;
+  background-image: url(../img/bb.jpg);
+  background-size: cover;
+  margin-bottom: 15px;
+  margin-left: 12%;
+  margin-right: 12%;
+}
+/* $$$$$$$$$$$$$$$$$$$$ ########## {{  SET BG AND STYLE FOR EACH IMG IN REVIEWS }} ########## $$$$$$$$$$$$$$$$$$$$  */
+/*
+.last-reviews .line-1 .from-left-1{
+  background-image: url(../img/);
+  background-size: cover;
+}
+.last-reviews .line-1 .from-left-2{
+  background-image: url(../img/);
+  background-size: cover;
+}
+
+.last-reviews .line-2 .from-right-1{
+  background-image: url(../img/);
+  background-size: cover;
+}
+.last-reviews .line-2 .from-right-2{
+  background-image: url(../img/);
+  background-size: cover;
+}
+*/
+/* $$$$$$$$$$$$$$$$$$$$ ########## {{  SET BG AND STYLE FOR EACH IMG IN REVIEWS  }} ########## $$$$$$$$$$$$$$$$$$$$  */
+
+/* ............line-1............*/
+.last-reviews td{
+  padding-top: 35px;
+  padding-bottom: 25px;
+}
+.last-reviews  a span{
+    width: 70%;
+}
+
+
+.last-reviews .line-1{
+  width: 42%;
+}
+
+.last-reviews .line-1 .row-1 td{
+  width: 50%;
+  border-bottom: dashed 3px rgb(182, 175, 143);
+}
+.last-reviews .line-1 .row-1 a span{
+    width: 95%;
+    text-align: justify;  
+}
+/* ............line-1............*/
+
+.last-reviews  .for-rul3{
+  width: 0;
+  padding-right: 5px;
+}
+.last-reviews  .for-rul3 th{
+  width: 0%;
+  border-right: dashed 3px rgb(182, 175, 143);
+  height: 920px;
+}
+
+/* ............line-2............*/
+.last-reviews .line-2{
+  width: 42%;
+  margin: auto;
+}
+.last-reviews .line-2 .row-1 td{
+  border-bottom: dashed 3px rgb(182, 175, 143);
+}
+.last-reviews .line-2 .row-1 a span{
+    width: 96%;
+    text-align: center;
+}
+/* ............line-2............*/
+
+.last-reviews  a:hover{
+    color: #ac9372;
+    transition: linear 0.9s;
+}
+
+.last-reviews  a span:hover{
+  transition: linear 1.5s;
+  font-style:italic;
+  color: rgb(80, 129, 204);
+}
+
+.last-reviews a img:hover{
+  opacity: 92%;
+  border-radius: 5%;
+  background-color: rgb(144, 78, 3, 0.9);
+  background-blend-mode: color-dodge;
+  transition: linear 0.4s;
+  
+}
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< LAST-REVIEWS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< OUR-SERVICES >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.serv-h {
+  text-align: center;
+  font-size: 260%;
+  color: #09053f;
+  margin: 0%;
+  padding: 0%;
+}
+.serv-h  .middle-sep{
+  margin: 0%;
+  padding: 0%;
+}
+/* ............line-1............*/
+
+.our-service {
+  width: 100%;
+  background-image: url(../img/1-pics-main/Asset\ 129@4x-8.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-color: rgba(7, 11, 26, 0.71);
+  background-blend-mode:color;
+  margin-bottom: 100px;
+}
+
+.our-service .service{
+  width: 80%;
+  margin: auto;
+  padding-bottom: 50px;
+  padding-top: 20px;
+}
+
+
+.our-service .line-1{
+  width: 45%;
+  border-bottom:  double 7px rgb(182, 175, 143);
+  margin-bottom: 30px;
+}
+
+.our-service .line-1 td{
+  width: 80%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.our-service .line-1 td img{
+  width: 11%;
+  margin-top: 5px;
+}
+
+@font-face {
+  font-family:service ;
+  src: url(../web-fonts/service.ttf);
+}
+.our-service .line-1 td span{
+  font-size: 130%;
+  font-family: service;
+  font-style: oblique;
+  -webkit-text-stroke: 0.5px #ff931e;
+  text-shadow: 1px 1px 0 #ac9372,
+              -1px -1px 0 #ac9372,  
+              1px -1px 0 #ac9372,
+              -1px 1px 0 #ac9372,
+                1px 1px 0 #ac9372;   
+  float: right;
+  color: #1e3e6d;
+  width: 80%;
+  margin-right: 10px;
+}
+.our-service .line-1 td span:hover{
+  color: #ffffff;
+  text-shadow: none;
+}
+
+/* ............line-1............*/
+.our-service  .for-rul3{
+  width: 0;
+  padding-right: 5px;
+}
+.our-service  .for-rul3 th{
+  width: 0%;
+  border-right: double 7px rgb(182, 175, 143);
+  height:600px;
+}
+/* ............line-2............*/
+.our-service .line-2{
+  width: 45%;
+  border-bottom:  double 7px rgb(182, 175, 143);
+  margin-bottom: 30px;
+}
+.our-service .line-2 td{
+  margin: auto;
+  width: 60%;
+}
+.our-service .line-2 .cont-1{
+  color: antiquewhite;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 190%;  
+  font-style: oblique;
+  padding-top: 15px;
+
+}
+
+.our-service .line-2 .cont-2{
+  color: #ac9372;
+  width: 60%;
+  margin-bottom:60px;
+}
+
+.our-service .line-2 .cont-2 label{
+ width: 45%;
+  float: left;
+  padding-left: 27%;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  font-size: 120%;
+  
+}
+
+.our-service .line-2 .cont-2 input{
+  background-color: rgb(248, 234, 207);
+  color: #1e3e6d;
+  width: 60%;
+  height: 40px;
+  border: solid 3px rgb(182, 175, 143);
+  border-radius: 15px;
+  border-bottom-right-radius: 35px;
+  border-top-left-radius: 35px;
+  box-shadow: 2px 2px 0 #d1b795,
+  -2px -2px 0 #ac9372,  
+  2px -2px 0 #ac9372,
+  -2px 2px 0 #ac9372,
+    2px 2px 0 #ac9372;  
+  font-size: 130%;
+  text-transform: capitalize;
+  text-justify: auto;
+  padding-left: 15px;
+}
+
+.our-service .line-2 .cont-2 textarea{
+  background-color: rgb(248, 234, 207);
+  color: #1e3e6d;
+  width: 80%;
+  border: solid 3px rgb(182, 175, 143);
+  border-radius: 15px;
+  border-bottom-right-radius: 35px;
+  border-top-left-radius: 35px;
+  box-shadow: 2px 2px 0 #d1b795,
+  -2px -2px 0 #ac9372,  
+  2px -2px 0 #ac9372,
+  -2px 2px 0 #ac9372,
+    2px 2px 0 #ac9372;  
+  font-size: 130%;
+  text-transform: capitalize;
+  text-justify: auto;
+  padding-left: 20px;
+  resize: vertical;
+}
+/* ............line-2............*/
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< OUR-SERVICES >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
